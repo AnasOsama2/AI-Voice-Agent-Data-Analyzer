@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+
+  <g id="icon-microphone">
+    <rect x="9" y="2" width="6" height="12" rx="3" fill="url(#primaryGrad)" />
+    <path d="M5 10v1a7 7 0 0 0 14 0v-1" fill="none" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="12" y1="18" x2="12" y2="22" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" />
+    <line x1="8" y1="22" x2="16" y2="22" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="icon-waveform">
+    <line x1="4" y1="12" x2="4" y2="12.01" stroke="#6366f1" stroke-width="3" stroke-linecap="round" />
+    <line x1="8" y1="8" x2="8" y2="16" stroke="#818cf8" stroke-width="3" stroke-linecap="round" />
+    <line x1="12" y1="4" x2="12" y2="20" stroke="#a855f7" stroke-width="3" stroke-linecap="round" />
+    <line x1="16" y1="7" x2="16" y2="17" stroke="#c084fc" stroke-width="3" stroke-linecap="round" />
+    <line x1="20" y1="11" x2="20" y2="13" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <g id="icon-database">
+    <ellipse cx="12" cy="5" rx="9" ry="3" fill="none" stroke="url(#accentGrad)" stroke-width="2" />
+    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" fill="none" stroke="url(#accentGrad)" stroke-width="2" />
+    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" fill="none" stroke="url(#accentGrad)" stroke-width="2" />
+  </g>
+
+  <g id="icon-chart">
+    <line x1="18" y1="20" x2="18" y2="10" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="12" y1="20" x2="12" y2="4" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="6" y1="20" x2="6" y2="14" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>
