@@ -2,8 +2,10 @@ import sys
 import os
 from pathlib import Path
 
-# Ensure root in sys.path
+# Ensure root in sys.path and UTF-8 output
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 from backend.database import create_session, get_session, ingest_dataset, execute_session_query
 from backend.sql_safety import validate_and_sanitize_sql
