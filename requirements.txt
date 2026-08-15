@@ -13,6 +13,7 @@ groq>=0.11.0
 # Data Processing & Storage
 pandas>=2.2.0
 openpyxl>=3.1.2
+sqlglot>=25.0.0
 
 # Testing & HTTP Client
 pytest>=8.0.0
